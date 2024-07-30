@@ -1,0 +1,77 @@
+.logo{
+  margin: 0 !important;
+  padding: 0;
+  height: 64px;
+  font-weight: 600;
+  background-color: rgba(41, 41, 243, 0.567);
+}
+
+.ant-layout{
+  min-height: 100vh;
+}
+
+.ant-layout-sider{
+  flex: 0 0 250px !important;
+  max-width: 250px  !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+
+.ant-layout-sider-collapsed{
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+
+.sm_logo{
+  display: none;
+}
+
+.ant-layout-sider-collapsed .sm_logo{
+  display: block;
+}
+
+.ant-layout-sider-collapsed .lg_logo{
+  display: none;
+}
+
+.lg_logo{
+  display: block;
+}
+.ant-menu-title-content{
+  font-size: 16px;
+}
+
+.ant-layout-header{ 
+  h5{
+    line-height: 20px;
+    font-size: 14px;
+  }
+  p{
+    line-height: 20px;
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .ant-layout-sider{
+    flex: 0 0 80px !important;
+    max-width: 80px  !important;
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .lg_logo{
+    display: none;
+  }
+  .sm_logo{
+    display: block;
+    font-size: 25px !important;
+  }
+
+  .head{
+    display: none !important;
+  }
+  
+}
